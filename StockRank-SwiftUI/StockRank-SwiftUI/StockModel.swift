@@ -3,19 +3,18 @@
 import Foundation
 
 struct StockModel: Hashable, Identifiable {
-    var id:String{
-        return name
-    }
+    var id:UUID = UUID()
     let rank: Int
     let imageName: String
     let name: String
     let price: Int
     let diff: Double
+    var isFavorite: Bool = false
 }
 
 extension StockModel {
     static let list: [StockModel] = [
-        StockModel(rank: 1, imageName: "TSLA", name: "테슬라", price: 1_238_631, diff: 0.04),
+        StockModel(rank: 1, imageName: "TSLA", name: "테슬라", price: 1_238_631, diff: 0.04,isFavorite: true),
         StockModel(rank: 2, imageName: "AAPL", name: "애플", price: 238_631, diff: 1.04),
         StockModel(rank: 3, imageName: "NFLX", name: "넷플릭스", price: 438_631, diff: -0.04),
         StockModel(rank: 4, imageName: "GOOG", name: "알파벳 A", price: 3_176_631, diff: 0.04),

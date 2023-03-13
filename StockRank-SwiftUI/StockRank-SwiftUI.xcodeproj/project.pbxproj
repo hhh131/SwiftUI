@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		543082FF29BB809A0044AF5E /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543082FE29BB809A0044AF5E /* StockDetailView.swift */; };
+		543F91E529BEF76F00691500 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543F91E429BEF76F00691500 /* StockViewModel.swift */; };
 		5476B33729B9F956001C72BC /* StockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5476B33629B9F956001C72BC /* StockRankRow.swift */; };
 		9486F0A828386AC10069AEB0 /* StockRank_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486F0A728386AC10069AEB0 /* StockRank_SwiftUIApp.swift */; };
 		9486F0AA28386AC10069AEB0 /* StockRankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486F0A928386AC10069AEB0 /* StockRankView.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		543082FE29BB809A0044AF5E /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
+		543F91E429BEF76F00691500 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
 		5476B33629B9F956001C72BC /* StockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankRow.swift; sourceTree = "<group>"; };
 		9486F0A428386AC10069AEB0 /* StockRank-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StockRank-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9486F0A728386AC10069AEB0 /* StockRank_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRank_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				5476B33629B9F956001C72BC /* StockRankRow.swift */,
 				9486F0A928386AC10069AEB0 /* StockRankView.swift */,
 				543082FE29BB809A0044AF5E /* StockDetailView.swift */,
+				543F91E429BEF76F00691500 /* StockViewModel.swift */,
 				9486F0AB28386AC20069AEB0 /* Assets.xcassets */,
 				9486F0AD28386AC20069AEB0 /* Preview Content */,
 			);
@@ -269,6 +272,7 @@
 				9486F0AA28386AC10069AEB0 /* StockRankView.swift in Sources */,
 				543082FF29BB809A0044AF5E /* StockDetailView.swift in Sources */,
 				5476B33729B9F956001C72BC /* StockRankRow.swift in Sources */,
+				543F91E529BEF76F00691500 /* StockViewModel.swift in Sources */,
 				9486F0A828386AC10069AEB0 /* StockRank_SwiftUIApp.swift in Sources */,
 				9486F0D228386AE60069AEB0 /* StockModel.swift in Sources */,
 			);
