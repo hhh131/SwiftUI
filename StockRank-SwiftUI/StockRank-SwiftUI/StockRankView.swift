@@ -36,8 +36,8 @@ struct StockRankView: View {
             }
             
             NavigationView{
-                List($vm.models){ $item in
-                    ZStack{
+                List($vm.likeModels){ $item in
+                    ZStack{ 
                         NavigationLink {
                             StockDetailView(viewModel: vm, stock: $item)
                         } label: {

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		543082FD29BA46CB0044AF5E /* FrameworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543082FC29BA46CB0044AF5E /* FrameworkCell.swift */; };
+		54449DA929C087250095D2B1 /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54449DA829C087250095D2B1 /* FrameworkDetailViewModel.swift */; };
+		547D45BC29BF2EA100A38B91 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D45BB29BF2EA100A38B91 /* FrameworkDetailView.swift */; };
+		547D45BE29BF315500A38B91 /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D45BD29BF315500A38B91 /* FrameworkListViewModel.swift */; };
 		9486F0E2283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486F0E1283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift */; };
 		9486F0E4283883B30069AEB0 /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486F0E3283883B30069AEB0 /* FrameworkListView.swift */; };
 		9486F0E6283883B40069AEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9486F0E5283883B40069AEB0 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		543082FC29BA46CB0044AF5E /* FrameworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCell.swift; sourceTree = "<group>"; };
+		54449DA829C087250095D2B1 /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
+		547D45BB29BF2EA100A38B91 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
+		547D45BD29BF315500A38B91 /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
 		9486F0DE283883B30069AEB0 /* AppleFramework-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleFramework-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9486F0E1283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFramework_SwiftUIApp.swift; sourceTree = "<group>"; };
 		9486F0E3283883B30069AEB0 /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54449DAA29C08B470095D2B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				54449DA829C087250095D2B1 /* FrameworkDetailViewModel.swift */,
+				547D45BD29BF315500A38B91 /* FrameworkListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54449DAB29C08B550095D2B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9486F10B283883D60069AEB0 /* FramewokData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54449DAC29C08B5D0095D2B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9486F0E3283883B30069AEB0 /* FrameworkListView.swift */,
+				543082FC29BA46CB0044AF5E /* FrameworkCell.swift */,
+				547D45BB29BF2EA100A38B91 /* FrameworkDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9486F0D5283883B30069AEB0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				9486F0E1283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift */,
-				9486F10B283883D60069AEB0 /* FramewokData.swift */,
-				9486F0E3283883B30069AEB0 /* FrameworkListView.swift */,
-				543082FC29BA46CB0044AF5E /* FrameworkCell.swift */,
+				54449DAB29C08B550095D2B1 /* Model */,
+				54449DAC29C08B5D0095D2B1 /* View */,
+				54449DAA29C08B470095D2B1 /* ViewModel */,
 				9486F0E5283883B40069AEB0 /* Assets.xcassets */,
 				9486F0E7283883B40069AEB0 /* Preview Content */,
 			);
@@ -264,9 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				543082FD29BA46CB0044AF5E /* FrameworkCell.swift in Sources */,
+				547D45BC29BF2EA100A38B91 /* FrameworkDetailView.swift in Sources */,
+				54449DA929C087250095D2B1 /* FrameworkDetailViewModel.swift in Sources */,
 				9486F0E4283883B30069AEB0 /* FrameworkListView.swift in Sources */,
 				9486F10C283883D60069AEB0 /* FramewokData.swift in Sources */,
 				9486F0E2283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift in Sources */,
+				547D45BE29BF315500A38B91 /* FrameworkListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
