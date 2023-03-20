@@ -11,6 +11,7 @@
 		54449DA929C087250095D2B1 /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54449DA829C087250095D2B1 /* FrameworkDetailViewModel.swift */; };
 		547D45BC29BF2EA100A38B91 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D45BB29BF2EA100A38B91 /* FrameworkDetailView.swift */; };
 		547D45BE29BF315500A38B91 /* FrameworkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D45BD29BF315500A38B91 /* FrameworkListViewModel.swift */; };
+		54B116FA29C831040060374B /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B116F929C831040060374B /* SafariView.swift */; };
 		9486F0E2283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486F0E1283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift */; };
 		9486F0E4283883B30069AEB0 /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486F0E3283883B30069AEB0 /* FrameworkListView.swift */; };
 		9486F0E6283883B40069AEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9486F0E5283883B40069AEB0 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		54449DA829C087250095D2B1 /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
 		547D45BB29BF2EA100A38B91 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		547D45BD29BF315500A38B91 /* FrameworkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewModel.swift; sourceTree = "<group>"; };
+		54B116F929C831040060374B /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		9486F0DE283883B30069AEB0 /* AppleFramework-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleFramework-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9486F0E1283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFramework_SwiftUIApp.swift; sourceTree = "<group>"; };
 		9486F0E3283883B30069AEB0 /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				9486F0E3283883B30069AEB0 /* FrameworkListView.swift */,
 				543082FC29BA46CB0044AF5E /* FrameworkCell.swift */,
 				547D45BB29BF2EA100A38B91 /* FrameworkDetailView.swift */,
+				54B116F929C831040060374B /* SafariView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				547D45BC29BF2EA100A38B91 /* FrameworkDetailView.swift in Sources */,
 				54449DA929C087250095D2B1 /* FrameworkDetailViewModel.swift in Sources */,
 				9486F0E4283883B30069AEB0 /* FrameworkListView.swift in Sources */,
+				54B116FA29C831040060374B /* SafariView.swift in Sources */,
 				9486F10C283883D60069AEB0 /* FramewokData.swift in Sources */,
 				9486F0E2283883B30069AEB0 /* AppleFramework_SwiftUIApp.swift in Sources */,
 				547D45BE29BF315500A38B91 /* FrameworkListViewModel.swift in Sources */,
