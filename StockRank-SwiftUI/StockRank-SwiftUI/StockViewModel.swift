@@ -9,7 +9,7 @@ import Foundation
 
 final class StockRankViewModel: ObservableObject {
   
-        @Published var models: [StockModel] = StockModel.list
+    @Published var models: [StockModel] = StockModel.list
     @Published var likeModels: [StockModel]
     var numOfFavorites: Int {
         models.filter{ $0.isFavorite }.count
